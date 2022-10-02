@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2c697565-def1-4a9e-bddf-f7adefb09fae}">
+		<property name="assetPath">
+			<value>Attack/BABY BREATHING FIRE _01-02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.4474149659863946</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9290e805-f6af-45b8-912e-c65454377a47}</destination>
+		</relationship>
+	</object>
+</objects>

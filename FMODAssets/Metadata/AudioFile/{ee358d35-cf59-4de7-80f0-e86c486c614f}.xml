@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ee358d35-cf59-4de7-80f0-e86c486c614f}">
+		<property name="assetPath">
+			<value>Wings/FLAPPING WINGS _6.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3200000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9290e805-f6af-45b8-912e-c65454377a47}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{cfa99bac-173d-401d-9524-5f4cd42f1896}">
+		<property name="assetPath">
+			<value>Pickup/Spawn/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9290e805-f6af-45b8-912e-c65454377a47}</destination>
+		</relationship>
+	</object>
+</objects>

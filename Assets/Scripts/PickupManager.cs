@@ -1,0 +1,59 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEngine;
+using Random = UnityEngine.Random;
+using FMODUnity;
+using UnityEngine.SceneManagement;
+
+public class PickupManager : MonoBehaviour
+{
+    private static PickupManager instance;
+    //[SerializeField] GameObject pickupPrefab;
+    [SerializeField] GameObject[] pickups;
+    [SerializeField] private float pickupSpawnTime = 5f;
+    //[SerializeField] private float pickupSpawnTimeResetter = 5f;
+    private float timeElapsed;
+    private float timeResetter = 3f;
+
+    /*private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
+    */
+
+    private void Update()
+    {
+        pickupSpawnTime -= Time.deltaTime;
+
+            if (pickupSpawnTime <= 0 && SceneManager.GetSceneByName("PostPrototype").isLoaded)
+            {
+                Spawner();
+                
+                pickupSpawnTime = timeResetter;
+            }
+    }
+    public static PickupManager GetInstance()
+    {
+        return instance;
+    }
+
+    private void Spawner()
+    {
+            //yield return new WaitForSeconds(5);
+            int randomIndex = Random.Range(0, pickups.Length);
+            GameObject newPickup = Instantiate(pickups[randomIndex]);
+            newPickup.transform.position = new Vector3(Random.Range(1f,-16f), 10f, Random.Range(0f, 90f));
+            FMODUnity.RuntimeManager.PlayOneShot ("event:/Pickups/Pickup Spawn");
+
+    }
+}
+

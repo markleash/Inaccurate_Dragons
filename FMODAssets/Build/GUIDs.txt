@@ -1,0 +1,13 @@
+{4057881e-97eb-4aaf-862f-816089028bc0} bank:/Master
+{d84aa8ca-e690-06ed-0066-0b9e78f18d58} bank:/Master.strings
+{5734171d-5302-4121-96ac-921caa6b614e} bank:/Music
+{39633c73-a352-4da1-9a00-5af5a3a0308a} bank:/Pickups
+{a195c7c0-d3b0-4021-9904-1c030a4c3e76} bank:/PlayerBank
+{2b1cc5cc-b61d-4d9f-a170-2a332c42d2b0} bank:/Torches
+{2620ecc0-3f31-4e31-ad62-3e75c813dc0f} bus:/
+{3d3959e7-4679-4312-a1f8-dfda8207d926} bus:/Reverb
+{2d55697c-03be-40d1-a7ae-dedd665cc705} event:/Environment/Torches
+{9e94f0d9-8341-4a7a-8713-64937b25c466} event:/Music/Music
+{15418277-6f71-46b1-8416-92c7fd58c65d} event:/Pickups/Pickup Grab
+{f4c22c7a-58bb-411a-bacb-bcf0c4fb2d48} event:/Pickups/Pickup Spawn
+{65783d14-121d-4117-8b06-e705863fe62e} event:/Player/Attack/Shoot

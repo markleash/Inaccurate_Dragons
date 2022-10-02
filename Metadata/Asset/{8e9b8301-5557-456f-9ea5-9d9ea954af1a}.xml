@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{8e9b8301-5557-456f-9ea5-9d9ea954af1a}">
+		<property name="assetPath">
+			<value>Pickup/Pickup Grab/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9290e805-f6af-45b8-912e-c65454377a47}</destination>
+		</relationship>
+	</object>
+</objects>

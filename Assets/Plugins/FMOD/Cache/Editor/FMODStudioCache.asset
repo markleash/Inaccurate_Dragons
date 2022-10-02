@@ -1,0 +1,559 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9149645016948295980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Attack/Projectile Sizzle
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Attack/Projectile Sizzle
+  Guid:
+    Data1: -1385512709
+    Data2: 1141706016
+    Data3: 1598506409
+    Data4: 596866814
+  Banks:
+  - {fileID: -4572972306231282876}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2400
+--- !u!114 &-6993344495663390611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pickups/Pickup Spawn
+  m_EditorClassIdentifier: 
+  Path: event:/Pickups/Pickup Spawn
+  Guid:
+    Data1: -188601222
+    Data2: 1092245691
+    Data3: -256062534
+    Data4: 1210973124
+  Banks:
+  - {fileID: -2223559478816344239}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 80
+  Length: 810
+--- !u!114 &-6611992377955787998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Torch
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Torch
+  Guid:
+    Data1: -1802983406
+    Data2: 1295638499
+    Data3: 113504144
+    Data4: 862045262
+  Banks:
+  - {fileID: 6574109917439707407}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41142
+--- !u!114 &-5501816516796567878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music
+  Guid:
+    Data1: -1634406183
+    Data2: 1249542977
+    Data3: -1822157945
+    Data4: 1724130683
+  Banks:
+  - {fileID: -706192718843479249}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29538
+--- !u!114 &-5218448320009755818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Attack/Damage
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Attack/Damage
+  Guid:
+    Data1: -1707520140
+    Data2: 1127478320
+    Data3: -1021252961
+    Data4: -249659752
+  Banks:
+  - {fileID: -4572972306231282876}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &-4994481352740657231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Torch 4
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Torch 4
+  Guid:
+    Data1: -121243264
+    Data2: 1116147754
+    Data3: -530232440
+    Data4: -1119130446
+  Banks:
+  - {fileID: 6574109917439707407}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41142
+--- !u!114 &-4572972306231282876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/PlayerBank.bank
+  Name: PlayerBank
+  StudioPath: bank:/PlayerBank
+  lastModified: 638003044701212496
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3213482475859975372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Torch 2
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Torch 2
+  Guid:
+    Data1: -1372796746
+    Data2: 1289151235
+    Data3: 1213773720
+    Data4: 925116154
+  Banks:
+  - {fileID: 6574109917439707407}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41142
+--- !u!114 &-3202395780752053446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sizzle
+  m_EditorClassIdentifier: 
+  Path: event:/Sizzle
+  Guid:
+    Data1: 1605439127
+    Data2: 1335343829
+    Data3: 1385075104
+    Data4: -2062814878
+  Banks:
+  - {fileID: 6497507969943716937}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2223559478816344239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Pickups.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Pickups.bank
+  Name: Pickups
+  StudioPath: bank:/Pickups
+  lastModified: 638003044700924819
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-706192718843479249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638003044700617306
+  FileSizes: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 3800431382434876911}
+  - {fileID: 6497507969943716937}
+  - {fileID: -706192718843479249}
+  - {fileID: -2223559478816344239}
+  - {fileID: -4572972306231282876}
+  - {fileID: 6574109917439707407}
+  EditorEvents:
+  - {fileID: -5501816516796567878}
+  - {fileID: 3012464498245637159}
+  - {fileID: -6993344495663390611}
+  - {fileID: 8866082649763554764}
+  - {fileID: 771368299124976940}
+  - {fileID: -5218448320009755818}
+  - {fileID: 7688703019733280210}
+  - {fileID: -3202395780752053446}
+  - {fileID: -9149645016948295980}
+  - {fileID: 8652506630366482130}
+  - {fileID: -6611992377955787998}
+  - {fileID: 8804660187691080207}
+  - {fileID: -4994481352740657231}
+  - {fileID: 9061240511670386987}
+  - {fileID: -3213482475859975372}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 6497507969943716937}
+  StringsBanks:
+  - {fileID: 3800431382434876911}
+  cacheTime: 638003044701435707
+  cacheVersion: 131592
+--- !u!114 &771368299124976940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Wings
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Wings
+  Guid:
+    Data1: -506537794
+    Data2: 1125342522
+    Data3: 481229186
+    Data4: 1247078439
+  Banks:
+  - {fileID: -4572972306231282876}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 740
+--- !u!114 &3012464498245637159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Attack/Shoot
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Attack/Shoot
+  Guid:
+    Data1: 1489783172
+    Data2: 1104757981
+    Data3: 116931971
+    Data4: -1498308598
+  Banks:
+  - {fileID: -4572972306231282876}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0.1
+  MaxDistance: 525
+  Length: 3500
+--- !u!114 &3800431382434876911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638003044700438739
+  FileSizes:
+  - Name: 
+    Value: 1572
+  Exists: 1
+--- !u!114 &6497507969943716937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638003044700428825
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6574109917439707407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Torches.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Torches.bank
+  Name: Torches
+  StudioPath: bank:/Torches
+  lastModified: 638003044701435707
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7688703019733280210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tiemr
+  m_EditorClassIdentifier: 
+  Path: event:/Tiemr
+  Guid:
+    Data1: -1274843471
+    Data2: 1185479023
+    Data3: 127871398
+    Data4: -1262537935
+  Banks:
+  - {fileID: 6497507969943716937}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8652506630366482130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pickups/Pickup Clink
+  m_EditorClassIdentifier: 
+  Path: event:/Pickups/Pickup Clink
+  Guid:
+    Data1: -651790409
+    Data2: 1092631665
+    Data3: 1661162163
+    Data4: 692899943
+  Banks:
+  - {fileID: -2223559478816344239}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 6800
+  Length: 1105
+--- !u!114 &8804660187691080207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Torch 3
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Torch 3
+  Guid:
+    Data1: -393593478
+    Data2: 1232072267
+    Data3: -1480914785
+    Data4: -320754481
+  Banks:
+  - {fileID: 6574109917439707407}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41142
+--- !u!114 &8866082649763554764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pickups/Pickup Grab
+  m_EditorClassIdentifier: 
+  Path: event:/Pickups/Pickup Grab
+  Guid:
+    Data1: 356614775
+    Data2: 1186033521
+    Data3: -946727292
+    Data4: 1573279997
+  Banks:
+  - {fileID: -2223559478816344239}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 900
+--- !u!114 &9061240511670386987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Torch 5
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Torch 5
+  Guid:
+    Data1: 814290062
+    Data2: 1321733529
+    Data3: -67908727
+    Data4: 282765304
+  Banks:
+  - {fileID: 6574109917439707407}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41142
